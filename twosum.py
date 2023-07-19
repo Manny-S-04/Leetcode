@@ -49,5 +49,3 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 
     return []
 
-
-print(twoSum(nums = [3,3], target = 6))
