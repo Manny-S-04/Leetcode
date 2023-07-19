@@ -28,12 +28,11 @@ Constraints:
 
 """
 
-class Solution:
-	def containsDuplicate(self, nums: List[int]) -> bool:
-		num_map = {}
-		for i, num in enumerate(nums):
-			if num in num_map:
-				return True
-			else:
-				num_map[num] = i
-		return False
+def containsDuplicate(self, nums: List[int]) -> bool:
+	num_map = {}
+	for i, num in enumerate(nums):
+		if num in num_map:
+			return True
+		else:
+			num_map[num] = i
+	return False
